@@ -1,0 +1,31 @@
+{
+  "name": "bloggor-backend",
+  "version": "1.0.0",
+  "description": "Role based access to Blog: 1. Admin 2. Author 3. Reader",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilpabale/bloggor-backend.git"
+  },
+  "author": "Sahil Pabale",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sahilpabale/bloggor-backend/issues"
+  },
+  "homepage": "https://github.com/sahilpabale/bloggor-backend#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.12.5"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
